@@ -5,8 +5,6 @@ int main(void) {
   printf("Enter Grade :");
   scanf("%f",&score);
   switch((int)score/10){
-   case 10:
-   case 9:
    case 8:
    printf("Grade A");
    break;
